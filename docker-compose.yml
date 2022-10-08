@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  pdf-ocr-service:
+    build: .
+    ports:
+      - "8082:8081"
